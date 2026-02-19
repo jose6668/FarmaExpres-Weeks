@@ -60,5 +60,6 @@ El sistema contempla acceso concurrente de múltiples usuarios para garantizar:
 - Preparar la transición de actividades hacia la Week 3.
 
 ## Enlaces de semanas
+- [Week 2](https://github.com/jose6668/Week-2.git)
 - [Week 3](https://github.com/JerssonF/Week-3)
 - [Week 4](https://github.com/JerssonF/Week-4.git)
