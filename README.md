@@ -9,7 +9,7 @@ Repositorio de seguimiento semanal del proyecto **FarmaExpres**, una plataforma 
 - [Enlaces de semanas](#enlaces-de-semanas)
 
 ## Descripción del proyecto
-**FarmaExpres** es una plataforma de gestión empresarial diseñada para administrar y controlar el inventario de medicamentos y productos farmacéuticos por sede, bajo un sistema centralizado.
+**FarmaExpres** es una plataforma de gestión empresarial diseñada para administrar y controlar el inventario de medicamentos y productos farmacéuticos, bajo un sistema centralizado.
 
 El sistema contempla acceso concurrente de múltiples usuarios para garantizar:
 - Integridad de datos
