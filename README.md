@@ -59,7 +59,45 @@ El sistema contempla acceso concurrente de múltiples usuarios para garantizar:
 - Publicar la lista final priorizada de funcionalidades.
 - Preparar la transición de actividades hacia la Week 3.
 
+### Week 4
+**Implementación**
+
+## Descripción
+
+Durante la Week 4 se trabajó en la implementación de las funcionalidades principales del sistema relacionadas con gestión de usuarios e inventario.
+
+## Historias de Usuario (RF)
+
+- HU-RF-01 – Gestión de Usuarios  
+- HU-RF-02 – Autenticación  
+- HU-RF-03 – Recuperación de Contraseña  
+- HU-RF-04 – Gestión de Sedes  
+- HU-RF-05 – Registro de Medicamentos  
+- HU-RF-06 – Registro de Entradas  
+- HU-RF-07 – Consulta de Inventario  
+- HU-RF-08 – Alertas  
+- HU-RF-09 – Historial de Movimientos  
+
+🔗 Ver Issues: ../../issues
+
+## Avance
+
+**Se realizó:**
+- Creación y organización de HU en Issues.
+- Asignación de responsables.
+- Inicio de implementación de autenticación e inventario.
+
+**Pendiente:**
+- Finalizar módulo de alertas.
+- Integrar pruebas entre funcionalidades.
+- Implementar requerimientos no funcionales.
+
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
 - [Week 3](https://github.com/JerssonF/Week-3)
 - [Week 4](https://github.com/JerssonF/Week-4.git)
+
+
+---
+
+© 2026 FarmaExpres – Proyecto Académico
