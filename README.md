@@ -78,8 +78,6 @@ Durante la Week 4 se trabajó en la implementación de las funcionalidades princ
 - HU-RF-08 – Alertas  
 - HU-RF-09 – Historial de Movimientos  
 
-🔗 Ver Issues: ../../issues
-
 ## Avance
 
 **Se realizó:**
