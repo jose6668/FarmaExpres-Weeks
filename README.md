@@ -101,7 +101,7 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 
 ### Progreso por Semana
 
-| Semana | Actividades principales | Entregables | Avance estimado |
+| Semana | Actividades principales | Entregables | Avance |
 |------|------|------|------|
 | Week 1 | Definición inicial del proyecto, alcance y conformación del equipo | Idea del proyecto, propósito del sistema, asignación de roles | 10% |
 | Week 2 | Identificación y análisis de necesidades del sistema | Documento de necesidades del sistema | 25% |
