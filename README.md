@@ -109,10 +109,11 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 4 | Diseño y arquitectura del sistema | Diagramas y arquitectura del sistema | 60% |
 
 ### Visualización del Avance
-Week 1 ███░░░░░░░ 10%
-Week 2 █████░░░░░ 25%
-Week 3 ███████░░░ 40%
-Week 4 █████████░ 60%
+
+Week 1  █░░░░░░░░░░ 10%  
+Week 2  ██░░░░░░░░░ 25%  
+Week 3  ████░░░░░░░ 40%  
+Week 4  ██████░░░░░ 60%
 
 ### Interpretación de la Métrica
 
