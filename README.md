@@ -106,7 +106,7 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 1 | Definición inicial del proyecto, alcance y conformación del equipo | Idea del proyecto, propósito del sistema, asignación de roles | 10% |
 | Week 2 | Identificación y análisis de necesidades del sistema | Documento de necesidades del sistema | 25% |
 | Week 3 | Elaboración de requerimientos funcionales y no funcionales | Documento RF y RNF, estructura inicial del sistema | 40% |
-| Week 4 | Diseño y arquitectura del sistema | Diagramas UML, BPMN y arquitectura del sistema | 60% |
+| Week 4 | Diseño y arquitectura del sistema | Diagramas y arquitectura del sistema | 60% |
 
 ### Visualización del Avance
 Week 1 ███░░░░░░░ 10%
