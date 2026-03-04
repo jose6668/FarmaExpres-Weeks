@@ -120,8 +120,9 @@ Week 4 █████████░ 60%
 - **30% – 60%:** Fase de diseño del sistema y definición de arquitectura.  
 - **60% – 90%:** Fase de desarrollo e integración de componentes.  
 - **90% – 100%:** Pruebas finales, documentación y entrega del sistema.
- 
-Esta métrica permite monitorear el progreso del proyecto y asegurar que cada fase del desarrollo avance de acuerdo con la planificación establecida.
+
+<sub>Esta métrica permite monitorear el progreso del proyecto y asegurar que cada fase del desarrollo avance de acuerdo con la planificación establecida.</sub>
+
 ---
 
 © 2026 FarmaExpres – Proyecto Académico
