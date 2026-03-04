@@ -95,7 +95,33 @@ Durante la Week 4 se trabajó en la implementación de las funcionalidades princ
 - [Week 3](https://github.com/JerssonF/Week-3)
 - [Week 4](https://github.com/JerssonF/Week-4.git)
 
+## 📊 Métrica de Avance del Proyecto
 
+Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basada en los entregables alcanzados en cada semana del desarrollo. Esta medición permite visualizar el avance del proyecto desde la fase de planificación hasta la implementación.
+
+### Progreso por Semana
+
+| Semana | Actividades principales | Entregables | Avance estimado |
+|------|------|------|------|
+| Week 1 | Definición inicial del proyecto, alcance y conformación del equipo | Idea del proyecto, propósito del sistema, asignación de roles | 10% |
+| Week 2 | Identificación y análisis de necesidades del sistema | Documento de necesidades del sistema | 25% |
+| Week 3 | Elaboración de requerimientos funcionales y no funcionales | Documento RF y RNF, estructura inicial del sistema | 40% |
+| Week 4 | Diseño y arquitectura del sistema | Diagramas UML, BPMN y arquitectura del sistema | 60% |
+
+### Visualización del Avance
+Week 1 ███░░░░░░░ 10%
+Week 2 █████░░░░░ 25%
+Week 3 ███████░░░ 40%
+Week 4 █████████░ 60%
+
+### Interpretación de la Métrica
+
+- **10% – 30%:** Fase de planificación y análisis del proyecto.  
+- **30% – 60%:** Fase de diseño del sistema y definición de arquitectura.  
+- **60% – 90%:** Fase de desarrollo e integración de componentes.  
+- **90% – 100%:** Pruebas finales, documentación y entrega del sistema.
+
+Esta métrica permite monitorear el progreso del proyecto y asegurar que cada fase del desarrollo avance de acuerdo con la planificación establecida.
 ---
 
 © 2026 FarmaExpres – Proyecto Académico
