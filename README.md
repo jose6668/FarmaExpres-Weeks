@@ -94,11 +94,26 @@ Durante la Week 4 se trabajó en la implementación de las funcionalidades princ
 - Integrar pruebas entre funcionalidades.
 - Implementar requerimientos no funcionales.
 
+  ### Week 5
+**ADR**
+
+**¿Qué se hizo?**
+ - Se identificaron y documentaron los ADR relevantes para el proyecto.
+
+**¿Qué no se logró?**
+- Ninguno relevante: los informes de impacto, asignaciones y verificaciones en staging han sido completados.
+
+**¿Qué se va a hacer?**
+- Monitoreo continuo en staging y producción; atender observaciones y mantener la documentación actualizada.
+
+
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
 - [Week 3](https://github.com/JerssonF/Week-3)
 - [Week 4](https://github.com/JerssonF/Week-4.git)
+- [Week 5](https://github.com/jose6668/Week-5.git)
 
+  
 ## 📊 Métrica de Avance del Proyecto
 
 Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basada en los entregables alcanzados en cada semana del desarrollo. Esta medición permite visualizar el avance del proyecto desde la fase de planificación hasta la implementación.
@@ -129,5 +144,7 @@ Week 4  ██████░░░░░ 60%
 <sub>Esta métrica permite monitorear el progreso del proyecto y asegurar que cada fase del desarrollo avance de acuerdo con la planificación establecida.</sub>
 
 ---
+
+
 
 © 2026 FarmaExpres – Proyecto Académico
