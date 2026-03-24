@@ -94,17 +94,159 @@ Durante la Week 4 se trabajó en la implementación de las funcionalidades princ
 - Integrar pruebas entre funcionalidades.
 - Implementar requerimientos no funcionales.
 
-  ### Week 5
-**ADR**
 
-**¿Qué se hizo?**
- - Se identificaron y documentaron los ADR relevantes para el proyecto.
+### Week 5
 
-**¿Qué no se logró?**
-- Ninguno relevante: los informes de impacto, asignaciones y verificaciones en staging han sido completados.
+#### Tabla de contenido
 
-**¿Qué se va a hacer?**
-- Monitoreo continuo en staging y producción; atender observaciones y mantener la documentación actualizada.
+- ADR (Architecture Decision Records)
+- Descripción
+- Historias de Usuario (HU)
+- Objetivo
+- ¿Qué se hizo?
+- ¿Qué no se logró?
+- ¿Qué se va a hacer?
+
+#### ADR
+
+Se identificaron y documentaron los Architecture Decision Records (ADR) relevantes para el proyecto, dejando registrados los criterios de diseño y las decisiones de arquitectura tomadas hasta la fecha.
+
+#### Descripción
+
+La Week 5 se centró en formalizar decisiones arquitectónicas y preparar el entorno de staging para validaciones. Se buscó asegurar que las decisiones tomadas queden registradas y que el equipo tenga claridad sobre los próximos pasos técnicos.
+
+#### Historias de Usuario (HU)
+
+No se adicionaron nuevas historias de usuario prioritarias esta semana: el foco estuvo en ADR y estabilizar despliegues.
+
+#### Objetivo
+
+Documentar las decisiones arquitectónicas y validar su impacto en entornos de staging, garantizando rastreabilidad y criterios claros para implementar cambios en semanas posteriores.
+
+#### ¿Qué se hizo?
+
+- Identificación y documentación de ADRs relevantes.
+- Verificación de impactos y asignación de tareas relacionadas con las decisiones de arquitectura.
+- Validaciones en entorno de staging y verificación de procesos de despliegue.
+- Preparación y configuración inicial de monitoreo en staging/producción.
+
+#### ¿Qué no se logró?
+
+- No hubo tareas críticas sin resolver; se dejó pendiente la aplicación completa de algunos ADRs en el código (implementación en próximas semanas).
+
+#### ¿Qué se va a hacer?
+
+- Aplicar las decisiones documentadas (ADR) en los repositorios correspondientes.
+- Extender la configuración de monitoreo y alertas a los servicios principales.
+- Continuar validaciones en staging y promover despliegues controlados a producción.
+
+### Week 6
+
+#### Tabla de contenido
+
+- Separación de Microservicios
+	- Descripción
+- Historias de Usuario (HU)
+- Objetivo
+- ¿Qué se hizo?
+- ¿Qué no se logró?
+- ¿Qué se va a hacer?
+
+#### Separación de Microservicios
+
+##### Descripción
+
+Se trabajará en la separación del sistema a través de repositorios por cada microservicio, con el fin de mejorar la escalabilidad, mantenibilidad y organización del proyecto FarmaExpres.
+
+Además, se definió una nueva Historia de Usuario (HU) enfocada en la estandarización del sistema, donde cada microservicio deberá ser renombrado y documentado en inglés, ya que anteriormente estaban definidos en español.
+
+De forma paralela, se avanzó en la definición y estructuración del frontend del sistema, alineando las funcionalidades con los microservicios definidos en el backend. Esto permitió establecer una base clara para la comunicación entre servicios y la construcción de la interfaz de usuario.
+
+#### Historias de Usuario (HU)
+
+**Backend**
+
+- `HU-MCI` - Migración del Backend de Español a Inglés
+- `HU-doc` - Documentación técnica de microservicios backend
+
+🔗 Ver todos los Issues
+
+**Frontend**
+
+Se definieron las historias de usuario correspondientes al frontend del sistema FarmaExpres:
+
+- `HU-FE-01` – Gestión de Usuarios (Creación)
+- `HU-FE-02` – Autenticación (Inicio de Sesión)
+- `HU-FE-03` – Gestión de Usuarios (Cambio de Contraseña)
+- `HU-FE-04` – Gestión de Medicamentos (Registro)
+- `HU-FE-05` – Gestión de Medicamentos (Actualización)
+- `HU-FE-06` – Gestión de Medicamentos (Eliminación Lógica)
+- `HU-FE-07` – Movimientos (Historial)
+- `HU-FE-08` – Inventario (Control Inteligente de Stock)
+- `HU-FE-09` – Inventario (Productos Agotados)
+- `HU-FE-10` – Auditoría (Gestión de Movimientos)
+
+🔗 Ver todos los Issues
+
+Estas historias permiten cubrir la interacción del usuario con el sistema, asegurando coherencia entre la lógica del backend y la interfaz del frontend.
+
+#### Objetivo
+
+Implementar la división del sistema en microservicios independientes por repositorios y establecer una nomenclatura estándar en inglés para cada uno de ellos, facilitando así la comprensión técnica, la interoperabilidad y futuras integraciones.
+
+Adicionalmente, se busca estructurar el frontend del sistema basado en historias de usuario claras, permitiendo:
+
+- Una mejor organización del desarrollo
+- Coherencia entre backend y frontend
+- Escalabilidad del sistema
+- Una experiencia de usuario clara y funcional
+
+#### ¿Qué se hizo?
+
+- Se estructuró el frontend con enfoque modular por dominio, separando componentes, páginas y servicios.
+- Se realizó la maquetación base de la aplicación (layout) por módulos y por roles.
+- Se diseñó y publicó la demo visual del sistema en Canva para referencia funcional/UI.
+- Se implementaron y documentaron las siguientes historias de usuario frontend:
+	- `HU-FE-01`: Gestión de usuarios (crear, listar, editar y activar/desactivar).
+	- `HU-FE-03`: Cambio de contraseña de usuarios desde administración.
+	- `HU-FE-04`: Registro de medicamentos.
+	- `HU-FE-05`: Actualización de medicamentos.
+	- `HU-FE-06`: Eliminación lógica de medicamentos.
+- Se consolidó documentación QA por HU en la carpeta `doc/` con evidencias visuales en `doc/images/`.
+- Se alineó la base visual y funcional del frontend con el documento de layout del sistema.
+
+**Enlaces del DEMO**
+
+- Demo visual del sistema (Canva): FarmaExpres Demo
+
+#### ¿Qué no se logró?
+
+- No se implementó aún la `HU-FE-02` (autenticación de inicio de sesión) como flujo formal completo en frontend.
+- No se completaron las historias de usuario de módulos pendientes:
+	- `HU-FE-07`: Movimientos (historial).
+	- `HU-FE-08`: Inventario (control inteligente de stock).
+	- `HU-FE-09`: Inventario (productos agotados).
+	- `HU-FE-10`: Auditoría (gestión de movimientos).
+- En algunos módulos todavía queda pendiente la validación integral de permisos por rol una vez se cierre completamente el flujo de autenticación.
+- Para el alcance de esta semana, `HU-FE-09` y `HU-FE-10` quedan programadas como pendientes para una fase posterior.
+
+#### ¿Qué se va a hacer?
+
+- Implementar la `HU-FE-02` (Autenticación - Inicio de Sesión):
+	- Construir el flujo completo de login.
+	- Gestionar sesión/token de acceso.
+	- Aplicar control de acceso por rol desde el frontend.
+- Implementar la `HU-FE-07` (Movimientos - Historial):
+	- Mostrar historial de entradas y salidas.
+	- Incorporar filtros por tipo, fecha y usuario.
+	- Presentar trazabilidad clara de los registros.
+- Implementar la `HU-FE-08` (Inventario - Control Inteligente de Stock):
+	- Visualizar estado de stock por niveles.
+	- Identificar productos críticos.
+	- Mostrar apoyo para priorización de reposición.
+- `HU-FE-09` y `HU-FE-10` se mantienen fuera del alcance de esta semana y se ejecutarán en la siguiente etapa.
+- Mantener el esquema de trabajo por HU: implementación funcional, validaciones, manejo de errores y documentación QA con evidencias por cada entrega.
+- Asegurar consistencia entre lo definido en layout, las reglas funcionales del frontend y los endpoints disponibles en backend.
 
 
 ## Enlaces de semanas
@@ -112,6 +254,7 @@ Durante la Week 4 se trabajó en la implementación de las funcionalidades princ
 - [Week 3](https://github.com/JerssonF/Week-3)
 - [Week 4](https://github.com/JerssonF/Week-4.git)
 - [Week 5](https://github.com/jose6668/Week-5.git)
+ - [Week 6](https://github.com/jose6668/Weeks-6.git)
 
   
 ## 📊 Métrica de Avance del Proyecto
@@ -126,13 +269,19 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 2 | Identificación y análisis de necesidades del sistema | Documento de necesidades del sistema | 25% |
 | Week 3 | Elaboración de requerimientos funcionales y no funcionales | Documento RF y RNF, estructura inicial del sistema | 40% |
 | Week 4 | Diseño y arquitectura del sistema | Diagramas y arquitectura del sistema | 60% |
+| Week 5 | ADR y validación en staging | ADR documentados, validaciones en staging | 75% |
+| Week 6 | Desarrollo e integración de la sexta semana | Frontend modular; HUs: HU-FE-01,03-06 implemented; HU-FE-02,07-10 pending; Backend: HU-doc, HU-MCI | 78% |
 
 ### Visualización del Avance
 
-Week 1  █░░░░░░░░░░ 10%  
-Week 2  ██░░░░░░░░░ 25%  
-Week 3  ████░░░░░░░ 40%  
-Week 4  ██████░░░░░ 60%
+| Semana | Avance |
+|---|---:|
+| Week 1 | █░░░░░░░░░░ 10% |
+| Week 2 | ██░░░░░░░░░ 25% |
+| Week 3 | ████░░░░░░░ 40% |
+| Week 4 | ██████░░░░░ 60% |
+| Week 5 | ███████░░░ 75% |
+| Week 6 | ████████░░ 78% |
 
 ### Interpretación de la Métrica
 
