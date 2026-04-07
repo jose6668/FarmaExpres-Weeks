@@ -363,6 +363,35 @@ El mayor esfuerzo de la semana estuvo en cerrar el bloque de historias de backen
 ## Objetivo
 
 El objetivo principal de la **Week 10** fue consolidar la entrega de las historias priorizadas en backend y frontend, manteniendo orden en la documentación técnica y en las evidencias QA dentro de las ramas activas de desarrollo. Además, se buscó dejar los cambios bien alineados con sus pruebas y soportes, para facilitar la revisión del equipo y dar continuidad a las siguientes iteraciones. 
+Claro. Aquí lo tienes en **Markdown**, siguiendo la misma estructura del ejemplo y con redacción parafraseada para que quede más natural y entendible. Está basado en el contenido del README del repositorio **Weeks-10**. ([GitHub][1])
+
+## ¿Qué se hizo?
+
+* Se completó la implementación del bloque de backend correspondiente a las historias **HU-011 hasta HU-016**.
+* Se incorporaron y registraron los ajustes relacionados con **HU-AC02** dentro del flujo de trabajo del backend.
+* Se integraron los cambios provenientes de las ramas **Cambios_Rama_HU-ACFE-01-dev**, **Cambios_Rama_HU-ACFE-02-dev** y **Cambios_Rama_HU-ACFE-03-dev**.
+* Se actualizó la documentación de soporte en la carpeta `docs/` de la rama `develop` del backend.
+* Se organizó mejor la trazabilidad de los entregables técnicos para revisión por historia de usuario y por cambios realizados.
+* En frontend se ejecutaron las historias **HU-QA-FE-08 a HU-QA-FE-12** durante esta semana.
+* Se dejó evidencia documental por cada historia trabajada en la carpeta `doc`.
+* Se reforzó la validación QA de los flujos intervenidos para asegurar coherencia tanto visual como funcional.
+* Se mantuvo relación entre implementación, validación y documentación para el frente de interfaz. 
+
+## ¿Qué no se logró?
+
+* No se alcanzó a cerrar completamente la validación integral de extremo a extremo entre todos los cambios realizados en backend y los escenarios QA del frontend.
+* Quedaron algunos ajustes menores pendientes de depuración entre ramas de apoyo y la rama `develop`.
+* En ciertos entregables todavía hace falta fortalecer evidencias adicionales de pruebas no funcionales, como rendimiento y comportamiento en escenarios límite.
+* También se requiere ampliar la cobertura de pruebas de regresión para asegurar que los cambios recientes no afecten funcionalidades anteriores.
+
+## ¿Qué se va a hacer?
+
+* Realizar una ronda final de validaciones integradas entre backend y frontend para confirmar la estabilidad del cierre de la **Week 10**.
+* Completar la homologación de la documentación pendiente en `docs/` y `doc/`, manteniendo trazabilidad por cada historia de usuario.
+* Reforzar las pruebas de regresión sobre las historias implementadas en backend (**HU-011 a HU-016 y HU-AC02**) y en frontend (**HU-QA-FE-08 a HU-QA-FE-12**).
+* Consolidar en `develop` los ajustes que aún faltan de las ramas de apoyo, con el fin de reducir deuda técnica de integración.
+* Dejar preparada la base técnica para la siguiente iteración, asegurando continuidad entre desarrollo, QA y documentación.
+
 
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
