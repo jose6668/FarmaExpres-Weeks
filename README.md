@@ -317,7 +317,7 @@ Organizar el avance de la **Week 09** de una manera más clara, separando lo tra
 * Mantener la forma de trabajo por historias de usuario, acompañada de evidencia QA y soporte documental por cada entrega.
 
 
-## Week 10
+# Week 10
 
 ### Tabla de contenido
 
