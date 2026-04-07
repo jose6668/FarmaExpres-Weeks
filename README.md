@@ -317,6 +317,53 @@ Organizar el avance de la **Week 09** de una manera más clara, separando lo tra
 * Mantener la forma de trabajo por historias de usuario, acompañada de evidencia QA y soporte documental por cada entrega.
 
 
+## Week 10
+
+### Tabla de contenido
+
+* Consolidación Backend y Frontend
+
+  * Descripción
+* Historias de Usuario (HU)
+* Objetivo
+* ¿Qué se hizo?
+* ¿Qué no se logró?
+* ¿Qué se va a hacer?
+
+## Consolidación Backend y Frontend
+
+### Descripción
+
+Durante la **Week 10** el trabajo estuvo enfocado en dar continuidad al desarrollo y al seguimiento de las historias de usuario tanto en **backend** como en **frontend**. Para esto, se tomó como apoyo la documentación organizada en las carpetas `docs/` del backend y `doc/` del frontend, con el fin de dejar evidencia clara de avances, cambios realizados y resultados obtenidos.
+
+El mayor esfuerzo de la semana estuvo en cerrar el bloque de historias de backend comprendido entre **HU-011 y HU-016**, incluyendo también **HU-AC02** y varios ajustes provenientes de ramas de apoyo como **Cambios_Rama_HU-ACFE-01-dev**, **Cambios_Rama_HU-ACFE-02-dev** y **Cambios_Rama_HU-ACFE-03-dev**. Al mismo tiempo, en frontend se consolidaron las historias QA de esta iteración, específicamente desde **HU-QA-FE-08 hasta HU-QA-FE-12**, dejando su respectiva documentación en la rama **Develop**.
+## Historias de Usuario (HU)
+
+### Backend
+
+* **HU-011:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-012:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-013:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-014:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-015:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-016:** Implementada y registrada en la carpeta `docs/` sobre la rama `develop`.
+* **HU-AC02:** Ajustes y validaciones incorporadas dentro del backend.
+* **Cambios_Rama_HU-ACFE-01-dev:** Integración de cambios en el flujo de backend.
+* **Cambios_Rama_HU-ACFE-02-dev:** Integración de cambios en el flujo de backend.
+* **Cambios_Rama_HU-ACFE-03-dev:** Integración de cambios en el flujo de backend.
+
+### Frontend
+
+* **HU-QA-FE-08:** Implementada y documentada en `doc/`.
+* **HU-QA-FE-09:** Implementada y documentada en `doc/`.
+* **HU-QA-FE-10:** Implementada y documentada en `doc/`.
+* **HU-QA-FE-11:** Implementada y documentada en `doc/`.
+* **HU-QA-FE-12:** Implementada y documentada en `doc/`. 
+
+## Objetivo
+
+El objetivo principal de la **Week 10** fue consolidar la entrega de las historias priorizadas en backend y frontend, manteniendo orden en la documentación técnica y en las evidencias QA dentro de las ramas activas de desarrollo. Además, se buscó dejar los cambios bien alineados con sus pruebas y soportes, para facilitar la revisión del equipo y dar continuidad a las siguientes iteraciones. 
+
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
 - [Week 3](https://github.com/JerssonF/Week-3)
