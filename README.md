@@ -429,6 +429,8 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 4 | ██████░░░░░ 60% |
 | Week 5 | ███████░░░ 75% |
 | Week 6 | ████████░░ 78% |
+| Week 9 | ████████░░ 79% |
+| Week 10 | ████████░░ 84% |
 
 ### Interpretación de la Métrica
 
