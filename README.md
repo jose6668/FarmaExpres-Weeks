@@ -290,6 +290,32 @@ Estas historias apoyan directamente funciones clave del sistema, sobre todo en t
 
 Organizar el avance de la **Week 09** de una manera más clara, separando lo trabajado en backend y frontend, para que el equipo pueda identificar fácilmente qué historias están documentadas, cuáles ya tienen validaciones y qué hace falta cerrar en la siguiente iteración. También se buscó dejar una base sólida para continuar el desarrollo con mejor trazabilidad técnica y funcional.
 
+## ¿Qué se hizo?
+
+* Se consolidó la documentación en backend de las historias **HU-007 a HU-011**.
+* Se dejó definido para cada historia su propósito funcional, sus criterios de aceptación y una propuesta de endpoints.
+* Se registraron notas técnicas relacionadas con reportes de inventario y soporte **FEFO** para consumo desde frontend.
+* Se mantuvo la trazabilidad de los componentes que deben intervenir en cada historia, como **Controller**, **Service**, **Repository**, **DTO** y pruebas.
+* En frontend se implementó y documentó el QA de **HU-QA-FE-02**, incluyendo validación del formulario de login, autenticación, almacenamiento del token, redirección después del ingreso y protección de rutas privadas.
+* También se implementó y documentó el QA de **HU-QA-FE-07**, cubriendo visualización del historial, filtros por tipo, fecha y usuario, además de validaciones por rol y estados en tabla.
+* Se reunieron evidencias visuales de los casos de prueba en la carpeta correspondiente de imágenes. ([GitHub][1])
+
+## ¿Qué no se logró?
+
+* Aunque las historias del bloque **HU-007 a HU-011** quedaron documentadas, varias todavía siguen en estado de planeación o avance parcial, así que aún falta cerrar completamente su implementación en código y pruebas.
+* Quedaron pendientes validaciones más completas de integración entre microservicios.
+* También hace falta exponer de forma definitiva algunos endpoints a través del **API Gateway**.
+* En frontend, el trabajo de esta semana se limitó únicamente a **HU-QA-FE-02** y **HU-QA-FE-07**, por lo que otras historias no fueron abordadas todavía dentro del alcance de la Week 09. ([GitHub][1])
+
+## ¿Qué se va a hacer?
+
+* Terminar la implementación técnica en backend de las historias **HU-007 a HU-011** que todavía estén incompletas.
+* Cerrar pruebas unitarias y de integración por cada endpoint.
+* Validar el funcionamiento completo de punta a punta por medio del **API Gateway**.
+* Seguir fortaleciendo los contratos de la API, especialmente en reportes y filtros de movimientos.
+* Ampliar en frontend la cobertura funcional más allá de **HU-QA-FE-02** y **HU-QA-FE-07**, según la prioridad de la siguiente semana.
+* Mantener la forma de trabajo por historias de usuario, acompañada de evidencia QA y soporte documental por cada entrega. ([GitHub][1])
+
 
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
