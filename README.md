@@ -248,6 +248,48 @@ Adicionalmente, se busca estructurar el frontend del sistema basado en historias
 - Mantener el esquema de trabajo por HU: implementación funcional, validaciones, manejo de errores y documentación QA con evidencias por cada entrega.
 - Asegurar consistencia entre lo definido en layout, las reglas funcionales del frontend y los endpoints disponibles en backend.
 
+# Week 09
+
+## Tabla de contenido
+
+* Consolidación de HU Backend y QA Frontend
+
+  * Descripción
+* Historias de Usuario (HU)
+* Objetivo
+* ¿Qué se hizo?
+* ¿Qué no se logró?
+* ¿Qué se va a hacer?
+
+## Consolidación de HU Backend y QA Frontend
+
+### Descripción
+
+Durante la **Week 09** el trabajo estuvo enfocado en dos frentes principales: por un lado, dejar más organizada la documentación de varias historias de usuario del **backend** y, por otro, realizar validaciones **QA en frontend** sobre procesos importantes del sistema. La idea fue dejar más claro qué se ha venido construyendo, qué ya se probó y qué todavía sigue pendiente.
+
+En la parte de backend, la atención se centró en las historias **HU-007 a HU-011**, donde se dejó documentado su alcance, los posibles endpoints y los criterios de aceptación dentro de la rama **Develop**. En frontend, el trabajo real de la semana se enfocó en dos validaciones QA ya documentadas: **HU-QA-FE-02**, relacionada con el inicio de sesión, y **HU-QA-FE-07**, enfocada en el historial de movimientos y sus filtros.
+
+## Historias de Usuario (HU)
+
+### Backend
+
+* **HU-007:** Consulta de movimientos por categoría.
+* **HU-008:** Alertas según rango de vencimiento.
+* **HU-009:** Resumen de stock y valor total de productos activos.
+* **HU-010:** DTO para la tabla de inventario activo.
+* **HU-011:** Filtro de movimientos por usuario.
+
+### Frontend
+
+* **HU-QA-FE-02:** Autenticación, inicio de sesión y control de rutas privadas.
+* **HU-QA-FE-07:** Historial de movimientos con filtros, trazabilidad y control de acceso por rol.
+
+Estas historias apoyan directamente funciones clave del sistema, sobre todo en temas de **seguridad de acceso**, **control del inventario** y **seguimiento de movimientos**, manteniendo coherencia entre lo que ofrece el backend y lo que muestra la interfaz.
+
+## Objetivo
+
+Organizar el avance de la **Week 09** de una manera más clara, separando lo trabajado en backend y frontend, para que el equipo pueda identificar fácilmente qué historias están documentadas, cuáles ya tienen validaciones y qué hace falta cerrar en la siguiente iteración. También se buscó dejar una base sólida para continuar el desarrollo con mejor trazabilidad técnica y funcional.
+
 
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
