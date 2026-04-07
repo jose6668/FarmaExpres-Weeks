@@ -417,7 +417,7 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 5 | ADR y validación en staging | ADR documentados, validaciones en staging | 75% |
 | Week 6 | Desarrollo e integración de la sexta semana | Frontend modular; HUs: HU-FE-01,03-06 implemented; HU-FE-02,07-10 pending; Backend: HU-doc, HU-MCI | 78% |
 | Week 9 | Consolidación documental de HU en backend y validación QA de flujos críticos en frontend | Documentación de HU-007 a HU-011 en backend; QA de HU-QA-FE-02 y HU-QA-FE-07; evidencias funcionales y trazabilidad técnica | 79% |
-| Week 10 | Ejecución, integración y trazabilidad de historias de usuario en backend y frontend | Implementación de HU-011 a HU-016, HU-AC02 y cambios de ramas de apoyo en backend; QA de HU-QA-FE-08 a HU-QA-FE-12; documentación técnica y evidencias | 84% |
+| Week 10 | Ejecución, integración y trazabilidad de historias de usuario en backend y frontend | Implementación de HU-011 a HU-016, HU-AC02 y cambios de ramas de apoyo en backend; QA de HU-QA-FE-08 a HU-QA-FE-12; documentación técnica y evidencias | 83% |
 
 ### Visualización del Avance
 
@@ -430,7 +430,7 @@ Para evaluar el progreso del proyecto FarmaExpres se definió una métrica basad
 | Week 5 | ███████░░░ 75% |
 | Week 6 | ████████░░ 78% |
 | Week 9 | ████████░░ 79% |
-| Week 10 | ████████░░ 84% |
+| Week 10 | ███████░░ 83% |
 
 ### Interpretación de la Métrica
 
