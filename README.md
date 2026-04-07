@@ -298,14 +298,14 @@ Organizar el avance de la **Week 09** de una manera más clara, separando lo tra
 * Se mantuvo la trazabilidad de los componentes que deben intervenir en cada historia, como **Controller**, **Service**, **Repository**, **DTO** y pruebas.
 * En frontend se implementó y documentó el QA de **HU-QA-FE-02**, incluyendo validación del formulario de login, autenticación, almacenamiento del token, redirección después del ingreso y protección de rutas privadas.
 * También se implementó y documentó el QA de **HU-QA-FE-07**, cubriendo visualización del historial, filtros por tipo, fecha y usuario, además de validaciones por rol y estados en tabla.
-* Se reunieron evidencias visuales de los casos de prueba en la carpeta correspondiente de imágenes. ([GitHub][1])
+* Se reunieron evidencias visuales de los casos de prueba en la carpeta correspondiente de imágenes.
 
 ## ¿Qué no se logró?
 
 * Aunque las historias del bloque **HU-007 a HU-011** quedaron documentadas, varias todavía siguen en estado de planeación o avance parcial, así que aún falta cerrar completamente su implementación en código y pruebas.
 * Quedaron pendientes validaciones más completas de integración entre microservicios.
 * También hace falta exponer de forma definitiva algunos endpoints a través del **API Gateway**.
-* En frontend, el trabajo de esta semana se limitó únicamente a **HU-QA-FE-02** y **HU-QA-FE-07**, por lo que otras historias no fueron abordadas todavía dentro del alcance de la Week 09. ([GitHub][1])
+* En frontend, el trabajo de esta semana se limitó únicamente a **HU-QA-FE-02** y **HU-QA-FE-07**, por lo que otras historias no fueron abordadas todavía dentro del alcance de la Week 09.
 
 ## ¿Qué se va a hacer?
 
@@ -314,7 +314,7 @@ Organizar el avance de la **Week 09** de una manera más clara, separando lo tra
 * Validar el funcionamiento completo de punta a punta por medio del **API Gateway**.
 * Seguir fortaleciendo los contratos de la API, especialmente en reportes y filtros de movimientos.
 * Ampliar en frontend la cobertura funcional más allá de **HU-QA-FE-02** y **HU-QA-FE-07**, según la prioridad de la siguiente semana.
-* Mantener la forma de trabajo por historias de usuario, acompañada de evidencia QA y soporte documental por cada entrega. ([GitHub][1])
+* Mantener la forma de trabajo por historias de usuario, acompañada de evidencia QA y soporte documental por cada entrega.
 
 
 ## Enlaces de semanas
