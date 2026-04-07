@@ -10,7 +10,7 @@ Repositorio de seguimiento semanal del proyecto **FarmaExpres**, una plataforma 
 - [Métrica de Avance del Proyecto](#-métrica-de-avance-del-proyecto)
 - [Progreso por Semana](#progreso-por-semana)
 - [Visualización del Avance](#visualización-del-avance)
-- [Interpretación de la Métrica](#interpretación-de-la-métrica).
+- [Interpretación de la Métrica](#interpretación-de-la-métrica)
 
 ## Descripción del proyecto
 **FarmaExpres** es una plataforma de gestión empresarial diseñada para administrar y controlar el inventario de medicamentos y productos farmacéuticos, bajo un sistema centralizado.
