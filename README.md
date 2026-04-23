@@ -392,6 +392,75 @@ Claro. Aquí lo tienes en **Markdown**, siguiendo la misma estructura del ejempl
 * Consolidar en `develop` los ajustes que aún faltan de las ramas de apoyo, con el fin de reducir deuda técnica de integración.
 * Dejar preparada la base técnica para la siguiente iteración, asegurando continuidad entre desarrollo, QA y documentación.
 
+# Week 11
+
+### Tabla de contenido
+
+* Entrega y consolidación de Release 2
+
+  * Descripción
+* Historias de Usuario (HU)
+* Objetivo
+* ¿Qué se hizo?
+* ¿Qué no se logró?
+* ¿Qué se va a hacer?
+
+## Entrega y consolidación de Release 2
+
+### Descripción
+
+Durante la **Week 11** el trabajo estuvo enfocado en consolidar y presentar la **entrega de Release 2** de FarmaExpres, tomando como base lo que se venía construyendo y documentando desde **Week 9** y **Week 10**. A diferencia de las semanas anteriores, en esta iteración no se priorizó abrir una historia de usuario aislada nueva, sino organizar todo el avance funcional, técnico y visual en una entrega clara, entendible y lista para exposición.
+
+El esfuerzo principal de la semana estuvo en transformar los avances ya implementados en una presentación orientada al producto, mostrando cómo funciona FarmaExpres desde la perspectiva del negocio y de los roles del sistema. Para esto se construyó una experiencia en **HTML local**, acompañada de videos funcionales, evidencia del manejo de ambientes **dev**, **qa** y **main**, trazabilidad de ramas hacia **Release.2** y una explicación clara de **Liquibase** como soporte para la estabilidad y consistencia de la base de datos.
+
+## Historias de Usuario (HU)
+
+### Backend
+
+* **HU-011 a HU-016:** Se toman como parte del valor ya consolidado en backend y ahora se integran dentro de la entrega de Release 2.
+* **HU-AC02:** Se mantiene como parte de los ajustes y validaciones ya incorporadas en el backend.
+* **HU-017:** Se resalta dentro de esta semana como base para explicar el diseño y versionado de la base de datos mediante **Liquibase**.
+* **Release.2:** Se consolida como punto de integración de ambientes, cambios funcionales y evidencia técnica para la presentación.
+
+### Frontend
+
+* **HU-QA-FE-08 a HU-QA-FE-12:** Se toman como parte del cierre funcional y se reutilizan dentro de la demostración visual del producto.
+* **Flujos por rol:** Se organizan en la presentación los recorridos funcionales de **Administrador**, **Farmacéutico** y **Auditor**.
+* **Presentación HTML local:** Se implementa como medio de exposición del producto, integrando videos, narrativa de negocio y evidencias de release.
+
+## Objetivo
+
+El objetivo principal de la **Week 11** fue consolidar la entrega de **Release 2** como producto presentable, reuniendo en un solo espacio la evidencia funcional, técnica y visual del avance logrado en semanas anteriores. Además, se buscó que la explicación fuera entendible para público no técnico, priorizando el valor del sistema, la organización de ambientes, la trazabilidad del release y la confianza operativa soportada por Liquibase.
+
+## ¿Qué se hizo?
+
+* Se consolidó la entrega de **Release 2** tomando como base lo trabajado en **Week 9** y **Week 10**.
+* Se construyó una presentación en **HTML local** orientada a mostrar el producto de manera clara y visual.
+* Se organizó la narrativa de la presentación comenzando por la problemática del negocio y continuando con las etapas principales del producto.
+* Se integraron videos funcionales que muestran el uso de la plataforma por cada rol del sistema.
+* Se estructuró la demostración para los roles de **Administrador**, **Farmacéutico** y **Auditor**.
+* Se incorporó evidencia visual del manejo de ambientes **dev**, **qa** y **main**.
+* Se añadió trazabilidad de ramas y promotion hacia **Release.2** como parte de la evidencia del proceso.
+* Se explicó el papel de **Liquibase** en el proyecto como herramienta de versionado, orden y consistencia de la base de datos.
+* Se dejó el repositorio preparado para clonar y ejecutar localmente la presentación de forma simple.
+* Se actualizó la documentación para que la entrega reflejara no solo implementación, sino también valor de producto y claridad de exposición.
+
+## ¿Qué no se logró?
+
+* No se abrió una nueva historia de usuario funcional independiente durante esta semana, ya que el foco estuvo en consolidar la entrega.
+* Aún queda pendiente fortalecer validaciones integrales de extremo a extremo entre lo implementado y lo presentado en escenarios más amplios.
+* Algunas pruebas de regresión y validaciones finales todavía pueden ampliarse para asegurar mayor estabilidad sobre todo el release.
+* Aunque la entrega quedó lista para exposición, todavía puede fortalecerse más en aspectos de despliegue final y validación completa en ambientes más cercanos a producción.
+
+## ¿Qué se va a hacer?
+
+* Continuar con ajustes posteriores a la demostración según la retroalimentación recibida sobre **Release 2**.
+* Reforzar validaciones integradas entre backend, frontend y ambientes para asegurar estabilidad completa del producto.
+* Ampliar pruebas de regresión sobre las funcionalidades consolidadas en las semanas anteriores.
+* Mantener y fortalecer la trazabilidad de ramas, ambientes y promotion para futuras entregas.
+* Seguir evolucionando la estrategia de versionado de base de datos con **Liquibase** como soporte de crecimiento ordenado del sistema.
+* Preparar la base para siguientes iteraciones partiendo de una plataforma ya documentada, consolidada y presentada como producto.
+
 
 ## Enlaces de semanas
 - [Week 2](https://github.com/jose6668/Week-2.git)
@@ -401,6 +470,7 @@ Claro. Aquí lo tienes en **Markdown**, siguiendo la misma estructura del ejempl
 - [Week 6](https://github.com/jose6668/Weeks-6.git)
 - [Week 9](https://github.com/Marlon271/Weeks-9.git)
 - [Week 10](https://github.com/Marlon271/Weeks-10.git)
+- [Week 11](https://github.com/Marlon271/Week-11.git)
   
 ## 📊 Métrica de Avance del Proyecto
 
