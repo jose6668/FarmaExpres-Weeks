@@ -1,0 +1,74 @@
+name: workflow-audit
+
+on:
+  pull_request:
+    paths:
+      - ".github/workflows/**"
+  push:
+    paths:
+      - ".github/workflows/**"
+
+jobs:
+  audit:
+    name: Audit workflow changes
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Scan workflows for dangerous commands
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            BASE_SHA="${{ github.event.pull_request.base.sha }}"
+            HEAD_SHA="${{ github.event.pull_request.head.sha }}"
+          else
+            BASE_SHA="${{ github.event.before }}"
+            HEAD_SHA="${{ github.sha }}"
+          fi
+
+          if [[ "$BASE_SHA" == "0000000000000000000000000000000000000000" ]]; then
+            BASE_SHA=$(git rev-list --max-parents=0 HEAD)
+          fi
+
+          mapfile -t CHANGED_FILES < <(git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- .github/workflows)
+
+          if [[ ${#CHANGED_FILES[@]} -eq 0 ]]; then
+            echo "No workflow changes detected."
+            exit 0
+          fi
+
+          echo "Scanning workflow files:"
+          printf ' - %s\n' "${CHANGED_FILES[@]}"
+
+          PATTERNS=(
+            "curl[^\n]*(-X|--request)[[:space:]]+DELETE"
+            "gh[[:space:]]+api[^\n]*(-X|--method)[[:space:]]+DELETE"
+            "DELETE[[:space:]]+https?://"
+            "rm[[:space:]]+-rf[[:space:]]+/"
+            "rm[[:space:]]+-rf[[:space:]]+\$\{\{[[:space:]]*github\.workspace[[:space:]]*\}\}"
+          )
+
+          FOUND=0
+          for file in "${CHANGED_FILES[@]}"; do
+            for pattern in "${PATTERNS[@]}"; do
+              if grep -nE "$pattern" "$file" > /tmp/matches.txt; then
+                echo "Potentially dangerous command detected in $file"
+                cat /tmp/matches.txt
+                FOUND=1
+              fi
+            done
+          done
+
+          if [[ "$FOUND" -ne 0 ]]; then
+            echo "Failing workflow audit due to dangerous commands."
+            exit 1
+          fi
+
+          echo "Workflow audit passed."
